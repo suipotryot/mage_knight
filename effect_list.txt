@@ -1,0 +1,116 @@
+Effects:
+- Reduce any attack of X
+- Reduce armor of ennemy X by Y
+- Reduce armor of ennemy X by block in excess
+- Receive attack of X
+- Unit X get resistance Y
+- Ready unit X of level Y max
+- Play spell X from offer as if in hand
+- Add spell X from offer to discard
+- Add spell X from offer to hand
+- Add spell X from offer to top deck
+- Play advanced action X from offer as if in hand
+- Add advanced action X from offer to discard
+- Add advanced action X from offer to hand
+- Add advanced action X from offer to top deck
+- Play unit X from offer ability as if in team
+- Recruit target unit for free
+- Get a mana of color X
+- Get a cristal of color X
+- Duplicate a cristal you own
+- Get all your cristals back at end of turn
+- Get a cristal of color on a dice
+- Roll dice X from source (or all dices)
+- All your units get Attack +X
+- All your units get block +X
+- Add glory +X to ennemy Y (or all ennemies)
+- Add reputation +X to ennemy Y (or all ennemies)
+- Add glory +X to unit recruitment (or all unit recruitment)
+- Add reputation +X to unit recruitment (or all unit recruitment)
+- Draw one ore card next time
+- You can go on terrain of type X for movement Y
+- Cost of terrain of type X is reduced by Y (or all terrain types) with minium of Z
+- Cost of terrain of type X is now Y
+- Move to distance of X
+- Move to distance of X for a cost of Y
+- Add +X to next Attack card
+- Add +X to next Block card
+- Use effect of card X Y times
+- Get X cristals of colors of X spells in offer
+- Each opponent discards a spell or AA of color X (or reveal his hand)
+- Add a card from opponents discard to your hand
+- Player X discard random cristal
+- Player X get wound for each cristal of color Y he/she owns
+- Add a cristal from opponents discard to your cristal pool
+- Exhaust unit X of level < Y in player Z area
+- Heal unit X
+- Destroy ennemy X
+- Ennemy X does not attack
+- Ennemy X loses fortified (or all enemies)
+- Ennemy X loses resistances (or all enemies)
+- Ennemy X loses resistance of type Y (or all enemies)
+- Draw X cards at random from you discard and put it on top or bottom of deck
+- Choose X cards from you discard and put it on top or bottom of deck
+- At end of turn, play an other turn
+- At end of turn, get all played cards back
+- Reduce cost of target unit of X
+- Look at hidden token X at a distance of Y max
+
+
+- Get Movement X
+- Get Influence X
+- Get Influence X for each wound in your hand
+- Get Influence X for each wound on your units
+- Get Attack X
+- Get Ranged Attack X
+- Get Ranged Fire Attack X
+- Get Siege attack X
+- Get Block X
+- Get Block X (*2 against swift ennemy)
+- Get Ice Block X
+- Get Fire Block X
+- Get Heal X
+
+Costs:
+- Discard a card
+- Discard a wound
+- Pay 1 mana
+- Get a wound
+- Destroy action card from your hand
+- Get reputation -X at end of turn
+- Unit get wounded
+- Pay X influence for unit to make action Y
+
+Constraints/condition:
+- Ennemy is well blocked
+- Must not have taken wound until use
+- Units cannot be assigned damage
+- You can change a mana of color X in cristal
+- Your movement must ends on terrain of type X
+- Terrain of type X is safe and costs Y
+- You cannot cross Terrain of type X
+- You can use influence as block
+- You can use influence as ice block
+- You can use influence as fire block
+- You can use X dices more
+- You can use black mana as any fundamental color
+- You can use yellow mana as any fundamental color
+- You can use movement as attack (ratio X)
+- You can use movement as ranged attack (ratio X)
+- You can use influence points as heal points (ratio X)
+- You can use influence to ready units (X per level)
+- Until end of round, get one mana of color X to your mana pool
+- Until end of round, player X get a wound if he uses mana of color X
+- Movement does not propovoke rampaging enemies
+- You can move as if spaces at X distance were at 1
+- Ignore next X wound you should take
+
+Informations:
+- Number of blocked ennemies
+- Number of wounds taken
+- Number of ennemies
+- Discarded cards
+- Opponents discarded cards
+- Opponents discarded cristals
+- Cristals owned
+- Cristal used
