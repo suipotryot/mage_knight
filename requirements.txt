@@ -1,4 +1,7 @@
-Django==2.0.4
-django-rest-framework==0.1.0
-djangorestframework==3.8.2
-pytz==2018.4
+click==6.7
+Flask==0.12.2
+itsdangerous==0.24
+Jinja2==2.10
+jsonpickle==0.9.6
+MarkupSafe==1.0
+Werkzeug==0.14.1
