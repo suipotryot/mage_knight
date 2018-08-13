@@ -1,17 +1,23 @@
-import jsonpickle
+# import jsonpickle
 
 class Tile:
-    pass
+    
+    def __len__(self):
+        return 7
 
 
 class WedgeMap:
     
     def __init__(self):
-        self.tiles = [0, 0, 0]
+        self.tiles = [
+            (Tile()),
+        ]
 
     def __len__(self):
         return len(self.tiles)
 
+    #def explorable_spaces(self):
+        
 
 class Game:
     
