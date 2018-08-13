@@ -2,9 +2,11 @@ Feature: Simple scenario installation
     #Background:
     Scenario: Get post installation state (Advanced Action offer)
         Given The API is up
-        #         And I start a new game with the following parameters:
-        #             | scenario      | hero     | dummy |
-        #             | Full conquest | Wolfhawk | Tvak  |
+        And I start a new game with the following parameters:
+            | configuration | value         |
+            | scenario      | Full conquest |
+            | hero          | Wolfhawk      |
+            | dummy         | Tovak         |
         #         And Next Advanced Actions are:
         #             | id | name              |
         #             | 35 | CHIVALRY          |

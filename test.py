@@ -1,6 +1,6 @@
 import unittest
 
-from mage_knight import Game, WedgeMap, Tile
+from mage_knight import Game, MyMap, Tile
 
 class TestGame(unittest.TestCase):
 
@@ -9,20 +9,20 @@ class TestGame(unittest.TestCase):
 
         result_map = game.map
 
-        self.assertIsInstance(result_map, WedgeMap)
+        self.assertIsInstance(result_map, MyMap)
 
 
 class TestWedgeMap(unittest.TestCase):
 
     def test_init_should_add_1_tile(self):
-        tested_map = WedgeMap()
+        tested_map = MyMap()
 
         result = len(tested_map)
 
         self.assertEqual(result, 1)
 
     def test_explorable_starting_spaces(self):
-        tested_map = WedgeMap()
+        tested_map = MyMap()
 
         result = tested_map.explorable_spaces()
 
